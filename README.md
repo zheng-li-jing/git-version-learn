@@ -26,4 +26,9 @@
 	4. 已推送
 		+ 撤回到未修改状态: git reset --hard HARD^, then, git push -f,(先恢复本地仓库，然后强势推送到远程仓库)
 #### git 分支图
-    ![git 分支图](https://www.github.com/Zhenglijing/git-version-learn/raw/master/images/git-version-learn.jpg)
+
+<div align="center">
+
+![image](https://www.github.com/Zhenglijing/git-version-learn/raw/master/images/git-version-learn.jpg)    
+
+</div>
