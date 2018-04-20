@@ -21,10 +21,13 @@
 		+ 查看文件的差异: git diff --cached
 		+ 撤回到已修改状态: git reset --hard(或者:先git reset,然后git checkout .)
 	3. 是已提交状态，未推送
-		+ 查看文件的差异: git diff HEAD^ HEAD,查看的上一次提交和当前提交的区别(或者: git diff master origin/master，查看的是主分支和远程主分支的区别)
-		+ 撤回到已修改或未修改状态: git reset --hard origin/master(或者: git reset --soft HEAD^,撤回commit操作，但代码保留)
+		+ 查看文件的差异: git diff HEAD^ HEAD,查看的上一次提交和当前提交的区别
+			(或者: git diff master origin/master，查看的是主分支和远程主分支的区别)
+		+ 撤回到已修改或未修改状态: git reset --hard origin/master
+			(或者: git reset --soft HEAD^,撤回commit操作，但代码保留)
 	4. 已推送
-		+ 撤回到未修改状态: git reset --hard HARD^, then, git push -f,(先恢复本地仓库，然后强势推送到远程仓库)
+		+ 撤回到未修改状态: git reset --hard HARD^, then, git push -f,
+			(先恢复本地仓库，然后强势推送到远程仓库)
 #### git 分支图
 
 <div align="center">
