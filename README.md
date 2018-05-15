@@ -35,3 +35,8 @@
 ![image](https://www.github.com/Zhenglijing/git-version-learn/raw/master/images/git-version-learn.jpg)    
 
 </div>
+
+#### git 开源贡献
+	1. 	fork
+	2.	clone 到本地做修改
+	3. 做版本和同步
